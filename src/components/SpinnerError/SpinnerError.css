@@ -1,0 +1,16 @@
+.ah-loading,
+.ah-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 200px;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.ah-loading img,
+.ah-error img {
+  max-height: 25vh;
+  border-radius: 12px;
+}
