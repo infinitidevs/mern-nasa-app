@@ -5,7 +5,7 @@
   color: var(--ah-color-primary);
 }
 
-#App {
+.ah-app {
   padding: 10px 35px;
   gap: 20px;
   background-color: rgba(255, 255, 255, 0.15);
