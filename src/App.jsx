@@ -3,6 +3,7 @@ import "./App.css";
 
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import APOD from "./pages/APOD/APOD";
 
 const App = () => {
   const [toggle, setToggle] = useState('Astronomy Picture Of The Day');
@@ -21,6 +22,7 @@ const App = () => {
           toggle === 'Astronomy Picture Of The Day' ? setToggle('MARS Exploration Rovers') : setToggle('Astronomy Picture Of The Day');
         }}
       />
+      <APOD />
       <Footer
          rs1={{
           href: 'https://github.com/infinitidevs',
