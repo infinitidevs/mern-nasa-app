@@ -13,7 +13,7 @@ const App = () => {
       <Header 
         link={{ href: 'https://www.nasa.gov/', target: '_blank', rel: 'noopener noreferrer' }}
         img={{
-          src: '/src/assets/nasa-logo.png',
+          src: '/src/assets/icons/nasa-motion.gif',
           alt: 'NASA Logo',
         }}
         title='NASA Imagery Browser App'
