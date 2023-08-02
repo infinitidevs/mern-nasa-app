@@ -1,30 +1,39 @@
-import { useState } from "react";
-import "./App.css";
+import './App.css';
 
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import APOD from "./pages/APOD/APOD";
+import { useState } from 'react';
 
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import APOD from './pages/APOD/APOD';
+import Rover from './pages/MarsRover/Rover';
+
+// million-ignore
 const App = () => {
   const [toggle, setToggle] = useState('Astronomy Picture Of The Day');
 
   return (
     <div id="App" className="ah-app">
-      <Header 
-        link={{ href: 'https://www.nasa.gov/', target: '_blank', rel: 'noopener noreferrer' }}
+      <Header
+        link={{
+          href: 'https://www.nasa.gov/',
+          target: '_blank',
+          rel: 'noopener noreferrer',
+        }}
         img={{
           src: '/src/assets/icons/nasa-motion.gif',
           alt: 'NASA Logo',
         }}
-        title='NASA Imagery Browser App'
+        title="NASA Imagery Browser App"
         subtitle={toggle}
         handleChange={() => {
-          toggle === 'Astronomy Picture Of The Day' ? setToggle('MARS Exploration Rovers') : setToggle('Astronomy Picture Of The Day');
+          toggle === 'Astronomy Picture Of The Day'
+            ? setToggle('MARS Exploration Rovers')
+            : setToggle('Astronomy Picture Of The Day');
         }}
       />
       {toggle === 'Astronomy Picture Of The Day' ? <APOD /> : <Rover />}
       <Footer
-         rs1={{
+        rs1={{
           href: 'https://github.com/infinitidevs',
           target: '_blank',
           rel: 'noopener noreferrer',

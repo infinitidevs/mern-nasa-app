@@ -1,4 +1,4 @@
-import "./Header.css";
+import './Header.css';
 
 const Header = ({ link, img, title, subtitle, handleChange }) => {
   return (
@@ -11,8 +11,8 @@ const Header = ({ link, img, title, subtitle, handleChange }) => {
         <h2 className="ah-category">{subtitle}</h2>
       </section>
       <label className="ah-toggleBtn" htmlFor="toggleButton">
-        <input id="toggleButton" type="checkbox" onChange={handleChange}/>
-        <span className="ah-slider"/>
+        <input id="toggleButton" type="checkbox" onChange={handleChange} />
+        <span className="ah-slider" />
       </label>
     </header>
   );

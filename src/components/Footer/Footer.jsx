@@ -1,10 +1,10 @@
-import "./Footer.css";
+import './Footer.css';
 
 const Footer = ({ rs1, rs2, rs3, rs4 }) => {
   return (
     <footer>
       <section className="ah-footer__signature">
-        <span>Produced By Andrés H.</span>
+        <span>Produced By Andrés Higuita</span>
       </section>
       <section className="ah-footer__content">
         <a href={rs1.href} target={rs1.target} rel={rs1.rel}>
