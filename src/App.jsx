@@ -22,7 +22,7 @@ const App = () => {
           toggle === 'Astronomy Picture Of The Day' ? setToggle('MARS Exploration Rovers') : setToggle('Astronomy Picture Of The Day');
         }}
       />
-      <APOD />
+      {toggle === 'Astronomy Picture Of The Day' ? <APOD /> : <Rover />}
       <Footer
          rs1={{
           href: 'https://github.com/infinitidevs',
