@@ -1,17 +1,17 @@
 header {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    height: 20%;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 20%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .ah-logo {
-    align-items: center;
-    height: 110px;
-    padding: 10px 0;
+  align-items: center;
+  height: 110px;
+  padding: 10px 0;
 }
 
 .ah-info > h1 {
@@ -26,75 +26,74 @@ header {
 }
 
 .ah-toggleBtn {
-    display: block;
-    width: 100px;
-    height: 40px;
-    background: linear-gradient(to right, #15418c 0%, #5a2017 100%);
-    border: 2px white;
-    border-radius: 30px;
-    cursor: pointer;
-    margin-right: 20px;
-    box-shadow: 5px 5px 16px #0e3d914d;
+  display: block;
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(to right, #15418c 0%, #5a2017 100%);
+  border: 2px white;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+  box-shadow: 5px 5px 16px #0e3d914d;
 }
 
 #toggleButton {
-    display: none;
+  display: none;
 }
 
 .ah-slider {
-    display: block;
-    position: relative;
-    transition: all 0.25s ease-in;
+  display: block;
+  position: relative;
+  transition: all 0.25s ease-in;
 }
 
 .ah-slider::after {
-    content: '';
-    position: absolute;
-    top: -20px;
-    left: -25px;
-    width: 75px;
-    height: 75px;
-    background: var(--ah-color-secondary) no-repeat center/70%
-       url("/src/assets/icons/astronaut.png");
-    border: 6px solid var(--ah-color-primary);
-    border-radius: 50%;
-    transition: all 0.25s ease-in;
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -25px;
+  width: 75px;
+  height: 75px;
+  background: var(--ah-color-secondary) no-repeat center/70%
+    url('/src/assets/icons/astronaut.png');
+  border: 6px solid var(--ah-color-primary);
+  border-radius: 50%;
+  transition: all 0.25s ease-in;
 }
 
 #toggleButton:checked + .ah-slider::after {
-    content: '';
-    background: var(--ah-color-secondary) no-repeat center/70%
-      url("/src/assets/icons/rover.png");
-    transform: translateX(75px) rotate(360deg);
-    border: 6px solid var(--ah-color-quaternary);
+  content: '';
+  background: var(--ah-color-secondary) no-repeat center/70%
+    url('/src/assets/icons/rover.png');
+  transform: translateX(75px) rotate(360deg);
+  border: 6px solid var(--ah-color-quaternary);
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
-    header {
-      flex-wrap: wrap;
-      justify-content: space-around;
-      height: auto;
-    }
-  
-    .ah-info {
-      order: 2;
-      flex-basis: 450px;
-    }
-  
-    .ah-logo {
-      height: 120px;
-    }
-  
+  header {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  .ah-info {
+    order: 2;
+    flex-basis: 450px;
+  }
+
+  .ah-logo {
+    height: 120px;
+  }
 }
 
-  @media screen and (max-width: 425px) {
-    header {
-      flex-wrap: wrap;
-      justify-content: space-around;
-      height: auto;
-    }
-  
-    .ah-toggleBtn {
-      margin: 30px 0;
-    }
+@media screen and (max-width: 425px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  .ah-toggleBtn {
+    margin: 30px 0;
+  }
 }
