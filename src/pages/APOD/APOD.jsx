@@ -1,7 +1,9 @@
 import './APOD.css';
-import React, { useState, useEffect } from 'react';
-import { API_KEY, APOD_URL, getPhotos } from '../../utils/api';
+
+import React, { useEffect, useState } from 'react';
+
 import { ErrorApi, Spinner } from '../../components/SpinnerError/SpinnerError';
+import { API_KEY, APOD_URL, getPhotos } from '../../utils/api';
 
 const APOD = () => {
   const today = new Date(Date.now()).toISOString().slice(0, 10);
