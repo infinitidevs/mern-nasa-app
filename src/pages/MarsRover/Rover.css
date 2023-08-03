@@ -1,130 +1,130 @@
 .ah-rover {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: auto;
-  padding: 25px 18px;
-  gap: 25px;
-
-  background-color: rgb(90, 32, 23, 0.149);
-  border-radius: 8px;
-  border: 1px solid rgb(90, 32, 23, 0.149);
-  box-shadow: 0px -5px 10px -3px #cd171a4d;
-  backdrop-filter: blur(12px) saturate(180%);
-  -webkit-backdrop-filter: blur(12px) saturate(180%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    padding: 25px 18px;
+    gap: 25px;
+    
+    background-color: rgb(90, 32, 23, 0.149);
+    border-radius: 8px;
+    border: 1px solid rgb(90, 32, 23, 0.149);    
+    box-shadow: 0px -5px 10px -3px #cd171a4d;
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
 }
 
 .ah-rover__image {
-  max-width: 50%;
-  max-height: 50vh;
-  border-radius: 8px;
-  box-shadow: -1px 0px 2px 1px rgba(90, 32, 23, 0.302);
+    max-width: 50%;
+    max-height: 50vh;
+    border-radius: 8px;
+    box-shadow: -1px 0px 2px 1px rgba(90, 32, 23, 0.302);
 }
 
 .ah-rover__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: justify;
-  gap: 10px;
-  color: var(--ah-color-primary);
-  max-width: 60%;
-  max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+    gap: 10px;
+    color: var(--ah-color-primary);
+    max-width: 60%;
+    max-height: 50vh;
 }
 
 .ah-rover__heading {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .ah-rover__heading > h2 {
-  color: var(--ah-color-quinary);
+    color: var(--ah-color-quinary);
 }
 
 .ah-rover__date {
-  margin-top: 7px;
-  padding: 2px 4px;
-  line-height: normal;
-  font-family: monospace;
-  font-size: large;
-  color: var(--ah-color-secondary);
-  background-color: var(--ah-color-quaternary);
-  border-radius: 8px;
-  border: 2px solid var(--ah-color-quaternary);
+    margin-top: 7px;
+    padding: 2px 4px;
+    line-height: normal;
+    font-family: monospace;
+    font-size: large;
+    color: var(--ah-color-secondary);
+    background-color: var(--ah-color-quaternary);
+    border-radius: 8px;
+    border: 2px solid var(--ah-color-quaternary);
 }
 
 .ah-rover__photo {
-  overflow: auto;
-  padding-right: 15px;
+    overflow: auto;
+    padding-right: 15px;
 }
 
 .ah-rover__cameraName {
-  color: var(--ah-color-senary);
+    color: var(--ah-color-senary);
 }
 
 .ah-rover__text {
-  color: var(--ah-color-secondary);
+    color: var(--ah-color-secondary);
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
-  .ah-rover {
-    flex-wrap: wrap;
-  }
+    .ah-rover {
+        flex-wrap: wrap;
+    }
 
-  .ah-rover__image {
-    max-width: 100%;
-  }
+    .ah-rover__image {
+        max-width: 100%;
+    }
 
-  .ah-rover__info {
-    align-items: center;
-    justify-content: space-around;
-    max-width: none;
-    max-height: 700px;
-  }
+    .ah-rover__info {
+        align-items: center;
+        justify-content: space-around;
+        max-width: none;
+        max-height: 700px;
+    }
 
-  .ah-rover__heading {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+    .ah-rover__heading {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-  .ah-rover__cameraName {
-    text-align: center;
-  }
+    .ah-rover__cameraName {
+        text-align: center;
+    }
 
-  .ah-rover__text {
-    height: max-content;
-  }
+    .ah-rover__text {
+        height: max-content;
+    }
 }
 
 @media screen and (max-width: 425px) {
-  .ah-rover {
-    flex-wrap: wrap;
-  }
+    .ah-rover {
+        flex-wrap: wrap;
+    }
 
-  .ah-rover__image {
-    max-width: 100%;
-  }
+    .ah-rover__image {
+        max-width: 100%;
+    }
 
-  .ah-rover__info {
-    align-items: center;
-    justify-content: space-around;
-    max-width: none;
-    max-height: 700px;
-  }
+    .ah-rover__info {
+        align-items: center;
+        justify-content: space-around;
+        max-width: none;
+        max-height: 700px;
+    }
 
-  .ah-rover__heading {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+    .ah-rover__heading {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-  .ah-rover__cameraName {
-    text-align: center;
-  }
+    .ah-rover__cameraName {
+        text-align: center;
+    }
 
-  .ah-rover__text {
-    height: max-content;
-  }
+    .ah-rover__text {
+        height: max-content;
+    }
 }

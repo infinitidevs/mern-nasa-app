@@ -4,14 +4,16 @@ const Image = ({ img }) => {
   return <img src={img.src} alt={img.alt} />;
 };
 
-const LoadingImg = '/src/assets/spinner.png';
+const LoadingImg =
+  '/src/assets/spinner.png';
 
-const ErrorImg = '/src/assets/error.gif';
+const ErrorImg =
+  '/src/assets/error.gif';
 
 export const Spinner = () => {
   return (
-    <section className="ah-loading">
-      <Image img={{ src: LoadingImg, alt: 'Loading' }} />
+    <section className='ah-loading'>
+      <Image img={{ src:LoadingImg, alt: 'Loading'}} />
       <h2>Loading...</h2>
     </section>
   );
@@ -24,8 +26,7 @@ export const ErrorApi = () => {
       <h2>
         The use of this demo API is limited
         <br />
-        If you see this message, the limit has been reached, wait a few minutes and try
-        again.
+        If you see this message, the limit has been reached, wait a few minutes and try again.
       </h2>
     </section>
   );

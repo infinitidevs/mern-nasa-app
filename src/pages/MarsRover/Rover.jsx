@@ -2,12 +2,7 @@ import './Rover.css';
 
 import React, { useEffect, useState } from 'react';
 
-import {
-  ErrorActive,
-  ErrorApi,
-  ErrorDate,
-  Spinner,
-} from '../../components/SpinnerError/SpinnerError';
+import { ErrorActive, ErrorApi, ErrorDate, Spinner } from '../../components/SpinnerError/SpinnerError';
 import { API_KEY, getPhotos, ROVER_URL } from '../../utils/api';
 
 const Rover = () => {
