@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-around;
   height: auto;
+  min-height: 300px;
   padding: 25px 18px;
   gap: 25px;
 

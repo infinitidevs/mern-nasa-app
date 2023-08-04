@@ -7,7 +7,6 @@ import Header from './components/Header/Header';
 import APOD from './pages/APOD/APOD';
 import Rover from './pages/MarsRover/Rover';
 
-// million-ignore
 const App = () => {
   const [toggle, setToggle] = useState('Astronomy Picture Of The Day');
 
@@ -48,13 +47,6 @@ const App = () => {
           alt: 'Linkedin',
         }}
         rs3={{
-          href: 'https://api.whatsapp.com/send?phone=34613385257',
-          target: '_blank',
-          rel: 'noopener noreferrer',
-          src: '/src/assets/icons/whatsapp.png',
-          alt: 'WhatsApp',
-        }}
-        rs4={{
           href: 'mailto:infinitidevs@gmail.com',
           target: '_blank',
           rel: 'noopener noreferrer',

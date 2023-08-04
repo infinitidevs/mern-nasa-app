@@ -13,5 +13,3 @@ Features:
 - Responsive and first desktop design.
 
 - Markup & meta SEO.
-
-- Million.js upgrade compiler velocity.

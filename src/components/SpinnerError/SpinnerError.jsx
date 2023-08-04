@@ -4,7 +4,7 @@ const Image = ({ img }) => {
   return <img src={img.src} alt={img.alt} />;
 };
 
-const LoadingImg = '/src/assets/spinner.png';
+const LoadingImg = '/src/assets/spinner.gif';
 
 const ErrorImg = '/src/assets/error.gif';
 
