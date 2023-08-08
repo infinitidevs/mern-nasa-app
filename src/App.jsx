@@ -19,7 +19,7 @@ const App = () => {
           rel: 'noopener noreferrer',
         }}
         img={{
-          src: '/src/assets/icons/nasa-motion.gif',
+          src: 'https://cdn.jsdelivr.net/gh/infinitidevs/mern-nasa-app@main/src/assets/icons/nasa-motion.gif',
           alt: 'NASA Logo',
         }}
         title="NASA Imagery Browser App"
@@ -36,21 +36,21 @@ const App = () => {
           href: 'https://github.com/infinitidevs',
           target: '_blank',
           rel: 'noopener noreferrer',
-          src: '/src/assets/icons/github.png',
+          src: 'https://cdn.jsdelivr.net/gh/infinitidevs/mern-nasa-app@main/src/assets/icons/github.png',
           alt: 'Github',
         }}
         rs2={{
           href: 'https://www.linkedin.com/in/infinitidevs',
           target: '_blank',
           rel: 'noopener noreferrer',
-          src: '/src/assets/icons/linkedin.png',
+          src: 'https://cdn.jsdelivr.net/gh/infinitidevs/mern-nasa-app@main/src/assets/icons/linkedin.png',
           alt: 'Linkedin',
         }}
         rs3={{
           href: 'mailto:infinitidevs@gmail.com',
           target: '_blank',
           rel: 'noopener noreferrer',
-          src: '/src/assets/icons/email.png',
+          src: 'https://cdn.jsdelivr.net/gh/infinitidevs/mern-nasa-app@main/src/assets/icons/email.png',
           alt: 'email',
         }}
       />

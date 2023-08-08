@@ -40,7 +40,11 @@ const APOD = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="ah-apod__image" src="/src/assets/icons/vimeo.png" alt="APOD" />
+          <img
+            className="ah-apod__image"
+            src="https://cdn.jsdelivr.net/gh/infinitidevs/mern-nasa-app@main/src/assets/icons/vimeo.png"
+            alt="APOD"
+          />
         </a>
       ) : (
         <img className="ah-apod__image" src={apod?.url} alt="APOD" />

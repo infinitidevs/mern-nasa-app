@@ -55,7 +55,7 @@ header {
   width: 65px;
   height: 65px;
   background: var(--ah-color-secondary) no-repeat center/80%
-    url('/src/assets/icons/astronaut.png');
+    url('https://cdn.jsdelivr.net/gh/infinitidevs/mern-nasa-app@main/src/assets/icons/astronaut.png');
   border: 6px solid var(--ah-color-primary);
   border-radius: 50%;
   transition: all 0.25s ease-in;
@@ -64,7 +64,7 @@ header {
 #toggleButton:checked + .ah-slider::after {
   content: '';
   background: var(--ah-color-secondary) no-repeat center/80%
-    url('/src/assets/icons/rover.png');
+    url('https://cdn.jsdelivr.net/gh/infinitidevs/mern-nasa-app@main/src/assets/icons/rover.png');
   transform: translateX(75px) rotate(360deg);
   border: 6px solid var(--ah-color-quaternary);
 }

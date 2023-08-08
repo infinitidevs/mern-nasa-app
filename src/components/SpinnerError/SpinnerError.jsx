@@ -4,9 +4,11 @@ const Image = ({ img }) => {
   return <img src={img.src} alt={img.alt} />;
 };
 
-const LoadingImg = '/src/assets/spinner.gif';
+const LoadingImg =
+  'https://cdn.jsdelivr.net/gh/infinitidevs/mern-nasa-app@main/src/assets/spinner.gif';
 
-const ErrorImg = '/src/assets/error.gif';
+const ErrorImg =
+  'https://cdn.jsdelivr.net/gh/infinitidevs/mern-nasa-app@main/src/assets/error.gif';
 
 export const Spinner = () => {
   return (
