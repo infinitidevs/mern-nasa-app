@@ -4,7 +4,7 @@ NASA API imagery browser App, where two options for exploring the multimedia dat
 
 ## Tech Stack
 
-React | CSS | Vite | Vercel (CI/CD) |  ESLint | Prettier 
+React | CSS | Vite | Vercel (CI/CD) | ESLint | Prettier
 
 ## Features
 
@@ -24,7 +24,7 @@ React | CSS | Vite | Vercel (CI/CD) |  ESLint | Prettier
 npm install
 ```
 
-### Compiles and code ready 
+### Compiles and code ready
 
 ```
 npm run dev
