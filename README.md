@@ -2,7 +2,11 @@
 
 NASA API imagery browser App, where two options for exploring the multimedia database are provided: Astronomy Picture Of The Day and Mars Rover Photos.
 
-Features:
+## Tech Stack
+
+React | CSS | Vite | Vercel (CI/CD) |  ESLint | Prettier 
+
+## Features
 
 - View images by date.
 
@@ -13,3 +17,15 @@ Features:
 - Responsive and first desktop design.
 
 - Markup & meta SEO.
+
+## Project setup
+
+```
+npm install
+```
+
+### Compiles and code ready 
+
+```
+npm run dev
+```
